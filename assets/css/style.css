@@ -7,3 +7,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Variáveis */
+:root {
+    /* Cores */
+    --bs-primary:   hotpink;
+    --bs-secondary: rgb(138, 48, 78);
+    --bs-tertiary:  pink;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+
+    /* Fontes */
+    --brand-font-family: 'Croissant One', serif;
+    --heading-font-family: 'Montserrat Alternates', sans-serif;
+    --body-font-family: 'Noto Sans', sans-serif;
+
+    --bs-body-font-family: var(--body-font-family);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-bg: var(--bs-light);         /* Cor de fundo */
+    --bs-body-color: var(--bs-dark);       /* Cor do texto */
+    --bs-link-color: var(--bs-primary);    /* Cor dos links */
+}
